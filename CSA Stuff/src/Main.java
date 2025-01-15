@@ -1,3 +1,4 @@
+import Classes.ClassProblems;
 import Inheritance.ClassA;
 import Inheritance.ClassB;
 import Loops.IterationProblems;
@@ -9,5 +10,7 @@ public class Main {
         StringProblems s = new StringProblems();
         p.p5D();
         System.out.println();
+        ClassProblems c = new ClassProblems();
+        c.p2();
     }
 }
