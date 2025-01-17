@@ -44,16 +44,17 @@ public class StringProblems {
     // problem 4:
     // determine the return value of StringMayhem("ssa");
     public String StringMayhem (String s) {
-        if (s.contains("a")) {
-            s += s;
+        String res = s;
+        if (res.contains("a")) {
+            res += s;
         }
-        if (s.contains("sas")) {
-            s += s;
+        if (res.contains("sas")) {
+            res += s;
         }
-        if (s.indexOf("ssssasssaasasassasaasasasasasassasa") < 4) {
-            s += s;
+        if (res.indexOf("ssssasssaasasassasaasasasasasassasa") < 4) {
+            res += s;
         }
-        return s;
+        return res;
     }
     // A. ssa
     // B. ssassa
