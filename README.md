@@ -5,6 +5,8 @@ there are 40 questions in total, all mcq, there may be multiple answers per prob
 the problems are designed to be tough, but getting you thinking.
 Answer Key:
 https://lwsd-my.sharepoint.com/:w:/g/personal/1026508_lwsd_org/EUNxVC-FxjRHiK19N7HOrlUBeM3e56rAlYeOJ8kupUouTA?e=j0YpfQ
+If you get a question wrong: 
+Try running the code in an IDE to see what you missed
 Questions:
 Email Me at 1026508@lwsd.org or discord message me
 Good Luck!
