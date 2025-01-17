@@ -6,7 +6,7 @@ public class InterivewProblems {
     // Note: These problems range in being slightly harder to being a lot more complex
     // than a typical CSA FRQ. Even an Easy leetcode problem is still going to be very tough.
     // You will need to create an account on leetcode
-    // Easy Leetcode Problems:
+    // Easy Leetcode Problems: (harder than csa frq)
     // https://leetcode.com/problems/palindrome-number/description/
     // https://leetcode.com/problems/roman-to-integer/description/
     // https://leetcode.com/problems/valid-parentheses/description/
