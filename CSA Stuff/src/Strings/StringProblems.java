@@ -99,6 +99,7 @@ public class StringProblems {
         }
         return true;
     }
+    // D. 
     public boolean isIncreasingStringD (String s) {
         for (int i = 1; i < s.length(); i++) {
             int a = s.charAt(i) - 'a';
