@@ -68,6 +68,7 @@ public class BooleanProblems {
     // Eric deems a number "smashable" if the sum of the digits of the number is divisible by 9 and the number
     // has at least 6 digits.
     // Circle the following functions that correctly check if a number is smashable.
+    // Assume the number is positive. 
     public boolean p6A (int x) {
         return (x % 9 == 0) && (x > 99999);
     }
