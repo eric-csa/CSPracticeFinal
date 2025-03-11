@@ -1,6 +1,6 @@
 package InterviewProblems;
 
-public class InterivewProblems {
+public class InterviewProblems {
     // NOT FOR FINAL PREP
     // Links to interview prep problems that are solvable with CURRENT KNOWLEDGE learned in CSA.
     // Note: These problems range in being slightly harder to being a lot more complex
