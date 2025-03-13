@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
 public class Main {
+    // find output of nestingRecursion(4)
     public static int nestingRecursion (int i) {
         if (i == 0) {
             return 0;
@@ -11,6 +12,7 @@ public class Main {
 
         return i;
     }
+    // find output of tripleNest(3)
     public static int tripleNest (int i) {
         if (i == 0) {
             return 0;
@@ -21,6 +23,7 @@ public class Main {
 
         return i;
     }
+    // find output of p6(8)
     public static int p6 (int n) {
         if (n % 3 == 0) {
             return p6(n + 1);
@@ -30,6 +33,7 @@ public class Main {
         }
         return p6(n - 1);
     }
+    // find output when graph = {{}, {2, 3}, {4, 5}, {6, 7}, {8}}
     public static void p7 (ArrayList<Integer>[] graph, int prev, int cur) {
         System.out.println(cur);
         for (int i : graph[cur]) {
@@ -39,6 +43,7 @@ public class Main {
             p7(graph, cur, i);
         }
     }
+    // find return value of p8(5, 4)
     public static int p8 (int a, int b) {
         if (b == 1) {
             return a;
@@ -55,19 +60,25 @@ public class Main {
         }
         return res;
     }
+    // find return value of p9({1, 2, 3, 4, 5, 6, 7}, 0)
     public static int p9 (int[] nums, int n) {
         if (n >= nums.length) {
             return 0;
         }
         return nums[n] + p9(nums, n + 1) - p9(nums, n + 2);
     }
+    // find return value of p10(8)
     public static int p10 (int n) {
+        if (n <= 2) {
+            return n;
+        }
         if (n % 3 == 0) {
             return n;
         }
 
-        return p10(p10(n + 5) / 2);
+        return p10(p10(n - 2) / 2);
     }
+    //  find output of p11({1, 2, 3}, 0)
     public static void p11 (ArrayList<Integer> nums, int i) {
         if (i > 0) {
             System.out.println(nums);
@@ -115,7 +126,7 @@ public class Main {
     // input: sort(nums) when nums = [5, 6, 7, 1, 2, 3] return: [1, 2, 3, 5, 6, 7]
     // you may modify the parameters of the function as needed, and add additional methods, although it is not needed.
     // Do not worry about time or space complexity
-
+    // TBA
 
 
     public static void main(String[] args) {
